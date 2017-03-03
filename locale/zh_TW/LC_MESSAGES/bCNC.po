@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bCNC chinese\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-21 21:28+0800\n"
-"PO-Revision-Date: 2017-02-22 02:45+0800\n"
+"PO-Revision-Date: 2017-03-02 21:16+0800\n"
 "Last-Translator: E2D <server@e2d.tw>\n"
 "Language-Team: E2D <engineer2designer@gmail.com>\n"
 "Language: zh_TW\n"
@@ -563,7 +563,6 @@ msgstr "生成數據路徑"
 msgid "Number of tabs"
 msgstr "標籤數"
 
-# ?
 #: ToolsPage.py:739
 msgid "Min. Distance of tabs"
 msgstr "最小的距離"
@@ -628,35 +627,32 @@ msgstr "$12 圖弧公差[mm]"
 msgid "$13 Report in inches"
 msgstr "$13 以英寸為單位"
 
-# ?
 #: ToolsPage.py:787
 msgid "$20 Soft limits enable"
 msgstr "$20 軟體限位"
 
-# ?
 #: ToolsPage.py:788
 msgid "$21 Hard limits enable"
 msgstr "$21 硬體限位"
 
-# ?
 #: ToolsPage.py:789
 msgid "$22 Homing cycle enable"
 msgstr "$22 原點循環啟用"
 
-# ?
 #: ToolsPage.py:790
 msgid "$23 Homing direction invert [mask]"
 msgstr "$23 回原點方向反轉[mask]"
 
+# 302
 #: ToolsPage.py:791
 msgid "$24 Homing locate feed rate [mm/min]"
-msgstr "$24 原點位置進給速率[mm / min]"
+msgstr "$24 原點位置進給速率[mm/min]"
 
+# 302
 #: ToolsPage.py:792
 msgid "$25 Homing search seek rate [mm/min]"
-msgstr "$25 原點搜索速率[mm / min]"
+msgstr "$25 原點搜索速率[mm/min]"
 
-# ?
 #: ToolsPage.py:793
 msgid "$26 Homing switch debounce delay, ms"
 msgstr "$26 歸位開關延遲，ms"
@@ -677,56 +673,56 @@ msgstr "$31 最小主軸轉速[RPM]"
 msgid "$32 Laser-mode enable"
 msgstr "$32 激光模式啟用"
 
-# ?
 #: ToolsPage.py:798
 msgid "$100 X-axis steps per mm"
 msgstr "$100 X軸步距每毫米"
 
-# ?
 #: ToolsPage.py:799
 msgid "$101 Y-axis steps per mm"
 msgstr "$101 Y軸步距每毫米"
 
-# ?
 #: ToolsPage.py:800
 msgid "$102 Z-axis steps per mm"
 msgstr "$102 Z軸步距每毫米"
 
+# 302
 #: ToolsPage.py:801
 msgid "$110 X-axis maximum rate [mm/min]"
-msgstr "$110 X軸最大速率[mm / min]"
+msgstr "$110 X軸最大速率[mm/min]"
 
+# 302
 #: ToolsPage.py:802
 msgid "$111 Y-axis maximum rate [mm/min]"
-msgstr "$111 Y軸最大速率[mm / min]"
+msgstr "$111 Y軸最大速率[mm/min]"
 
+# 302
 #: ToolsPage.py:803
 msgid "$112 Z-axis maximum rate [mm/min]"
-msgstr "$112 Z軸最大速率[mm / min]"
+msgstr "$112 Z軸最大速率[mm/min]"
 
+# 302
 #: ToolsPage.py:804
 msgid "$120 X-axis acceleration [mm/sec^2]"
-msgstr "$ 120 X軸加快速度[mm / sec ^ 2]"
+msgstr "$120 X軸加快速度[mm/sec^2]"
 
+# 302
 #: ToolsPage.py:805
 msgid "$121 Y-axis acceleration [mm/sec^2]"
-msgstr "$121 Y軸加快速度[mm / sec ^ 2]"
+msgstr "$121 Y軸加快速度[mm/sec^2]"
 
+# 302
 #: ToolsPage.py:806
 msgid "$122 Z-axis acceleration [mm/sec^2]"
-msgstr "$122 Z軸加快速度[mm / sec ^ 2]"
+msgstr "$122 Z軸加快速度[mm/sec^2]"
 
-# 1
 #: ToolsPage.py:807
 msgid "$130 X-axis maximum travel [mm]"
 msgstr "$130 X軸最大行程[mm]"
 
-# 1
 #: ToolsPage.py:808
 msgid "$131 Y-axis maximum travel [mm]"
 msgstr "$131 Y軸最大行程[mm]"
 
-# 1
 #: ToolsPage.py:809
 msgid "$132 Z-axis maximum travel [mm]"
 msgstr "$132 Z軸最大行程[mm]"
@@ -1232,13 +1228,11 @@ msgstr "除以10"
 msgid "Decrease step by 1 unit"
 msgstr "逐步減少1個單位"
 
-# 1
 #: ControlPage.py:696
 #, python-format
 msgid "Step: %g"
 msgstr "Step: %g"
 
-# 1
 #: ControlPage.py:701
 #, python-format
 msgid "Step: %g    Zstep:%g "
@@ -1249,9 +1243,10 @@ msgstr "Step: %g    Zstep:%g "
 msgid "Switch to workspace %s"
 msgstr "切換到工作區 %s"
 
+# 302
 #: ControlPage.py:831 ProbePage.py:1455
 msgid "Distance:"
-msgstr "距離:"
+msgstr "距離："
 
 #: ControlPage.py:839
 msgid "Distance Mode [G90,G91]"
@@ -1769,7 +1764,6 @@ msgstr "共同"
 msgid "Probe Feed:"
 msgstr "探針進給速度:"
 
-# 1
 #: ProbePage.py:208
 msgid "Set probe feed rate"
 msgstr "設置探頭進給速率"
@@ -1830,47 +1824,54 @@ msgstr "探測環內徑"
 msgid "Center probing using a ring"
 msgstr "中心採用環探測"
 
+# 228
 #: ProbePage.py:401 ProbePage.py:509 bCNC.py:93
 msgid "Orient"
-msgstr "東方"
+msgstr "定位"
 
 #: ProbePage.py:407
 msgid "Markers:"
 msgstr "標記："
 
+# 228
 #: ProbePage.py:417
 msgid "Select orientation marker"
-msgstr "選擇方向標記"
+msgstr "選擇定位標記"
 
+# 228
 #: ProbePage.py:429
 msgid ""
 "Add an orientation marker. Jog first the machine to the marker position and "
 "then click on canvas to add the marker."
-msgstr "添加方向標記。 先將機器移動到標記位置，然後單擊畫布添加標記。"
+msgstr "添加定位標記。 先將機器移動到標記位置，然後單擊畫布添加標記。"
 
 #: ProbePage.py:436
 msgid "Gcode:"
 msgstr "Gcode:"
 
+# 228
 #: ProbePage.py:443
 msgid "GCode X coordinate of orientation point"
-msgstr "GCode取向點的X坐標"
+msgstr "GCode取定位的X坐標"
 
+# 228
 #: ProbePage.py:451
 msgid "GCode Y coordinate of orientation point"
-msgstr "GCode取向Y點的坐標"
+msgstr "GCode取定位的Y坐標"
 
 #: ProbePage.py:463
 msgid "Delete current marker"
 msgstr "刪除現在記號"
 
+# 228
 #: ProbePage.py:476
 msgid "Machine X coordinate of orientation point"
-msgstr "機器方向點的X坐標"
+msgstr "機器定位點的X坐標"
 
+# 228
 #: ProbePage.py:484
 msgid "Machine Y coordinate of orientation point"
-msgstr " 機器方向點的Y坐標"
+msgstr "機器定位點的Y坐標"
 
 #: ProbePage.py:496 ProbePage.py:704
 msgid "Delete all markers"
@@ -1924,9 +1925,10 @@ msgstr "探測誤差"
 msgid "Invalid diameter entered"
 msgstr "輸入無效的直徑"
 
+# 228
 #: ProbePage.py:705
 msgid "Do you want to delete all orientation markers?"
-msgstr "你要刪除所有方向的標記？"
+msgstr "你要刪除所有定位的標記？"
 
 #: ProbePage.py:796
 msgid "Min"
@@ -2004,12 +2006,10 @@ msgstr "是否要刪除所有自動水平？"
 msgid "Switch To"
 msgstr "切換到"
 
-# 1
 #: ProbePage.py:1046
 msgid "Switch between camera and spindle"
 msgstr "在相機和主軸之間切換"
 
-# 1
 #: ProbePage.py:1052
 msgid "Edge Detection"
 msgstr "邊緣檢測"
@@ -2062,7 +2062,6 @@ msgstr "從活動端的刀獲得直徑"
 msgid "Camera offset from gantry"
 msgstr "相機偏離龍門架"
 
-# 1
 #: ProbePage.py:1175
 msgid "Spindle Z position when camera was registered"
 msgstr "相機登記時的主軸Z位置"
@@ -2107,7 +2106,6 @@ msgstr "相機偏移已更新"
 msgid "Calibrate"
 msgstr "校準"
 
-# 1
 #: ProbePage.py:1333
 msgid "Perform a single a tool change cycle to set the calibration field"
 msgstr "執行單個刀具更換週期以設置校準字段"
@@ -2136,9 +2134,10 @@ msgstr "工具更換策略"
 msgid "Pause:"
 msgstr "暫停："
 
+# 302
 #: ProbePage.py:1395
 msgid "Change:"
-msgstr "更改:"
+msgstr "更改："
 
 #: ProbePage.py:1399
 msgid "Manual tool change Machine X location"
@@ -2184,7 +2183,6 @@ msgstr "從ProbeZ開始的刀具更換掃描距離"
 msgid "Calibration:"
 msgstr "校準："
 
-# 1
 #: ProbePage.py:1470
 msgid "Tool probe height"
 msgstr "刀具探頭高度"
@@ -2246,9 +2244,10 @@ msgstr "將鼠標位置設置為當前機器位置（僅限X / Y）"
 msgid "Drag a ruler to measure distances"
 msgstr "拖動標尺以測量距離"
 
+# 228
 #: CNCCanvas.py:394
 msgid "Add an orientation marker"
-msgstr "添加方向標記"
+msgstr "添加定位標記"
 
 #: CNCCanvas.py:455
 msgid "ERROR: Cannot set X-Y marker  with the current view"
@@ -2367,7 +2366,6 @@ msgstr "清理G-Code"
 msgid "Controller buffer fill"
 msgstr "控制器緩衝區填充"
 
-# 10010101010101010101010101010101010101010101010101010101010101010101001010101011001010101001010101010010101001101010010101010110010010100101001001010100101001010
 #: bCNC.py:171
 msgid ""
 "MDI Command line: Accept g-code commands or macro commands (RESET/HOME...) "
@@ -2438,8 +2436,6 @@ msgstr "方向指令錯誤"
 msgid "Invalid direction %s specified"
 msgstr "指定的方向 %s 無效"
 
-# 20430237204614186053048357412105430618 4868151416 546815748/91740867/86741065148640841586 46584534131608504341054504568545415215416851454141 414141 454101
-# 212112222222222222222222222222222222222222222222222222222222222222222222222455541531131
 #: bCNC.py:1457
 msgid "Please select the blocks of gcode you want to optimize."
 msgstr "請選擇您要優化的gcode塊。"
@@ -2505,7 +2501,6 @@ msgstr "文件修改"
 msgid "Probe was modified do you want to save it first?"
 msgstr "探測被修改，你想保存它嗎？"
 
-# 174551201850505420821872482148721486328963487531.034512054120421054820421048728765796859595842141254128424887569/*/986532896521486941320.5486120541205432005405481054872105487210548120.3468932.68432.10486312.053486321.035486932.14869432.487631.347812
 #: bCNC.py:1939
 msgid "Existing Autolevel"
 msgstr "現有自動水平探測 "
